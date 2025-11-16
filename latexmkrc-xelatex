@@ -1,0 +1,6 @@
+# .latexmkrc from simple-latexmkrc-set [xelatex] <2025-11-11>
+$xelatex = 'xelatex -interaction=nonstopmode -halt-on-error %O %S';
+$bibtex = 'bibtex %O %S';
+$makeindex = 'makeindex %O -o %D %S';
+$pdf_mode = 5;
+# EOF

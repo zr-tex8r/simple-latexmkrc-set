@@ -1,0 +1,6 @@
+# .latexmkrc from simple-latexmkrc-set [lualatex] <2025-11-11>
+$lualatex = 'lualatex -interaction=nonstopmode -halt-on-error %O %S';
+$bibtex = 'bibtex %O %S';
+$makeindex = 'makeindex %O -o %D %S';
+$pdf_mode = 4;
+# EOF

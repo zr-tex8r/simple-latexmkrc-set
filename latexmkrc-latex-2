@@ -1,0 +1,6 @@
+# .latexmkrc from simple-latexmkrc-set [latex-2] <2025-11-11>
+$latex = 'latex -interaction=nonstopmode -halt-on-error %O %S';
+$bibtex = 'bibtex %O %S';
+$makeindex = 'makeindex %O -o %D %S';
+$pdf_mode = 2;
+# EOF
